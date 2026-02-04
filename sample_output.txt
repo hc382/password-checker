@@ -1,6 +1,6 @@
 === Password Strength Checker + Policy Analyzer ===
 Policy: min_length=12, upper=True, lower=True, digit=True, symbol=True, whitespace_allowed=False, max_repeat_run=3
-
+sample password used: 'DemoPassw0rd'
 Strength Score: 78/100 (Good)
 
 == Policy Checks ==
