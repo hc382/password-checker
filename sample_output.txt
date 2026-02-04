@@ -1,0 +1,16 @@
+=== Password Strength Checker + Policy Analyzer ===
+Policy: min_length=12, upper=True, lower=True, digit=True, symbol=True, whitespace_allowed=False, max_repeat_run=3
+
+Strength Score: 78/100 (Good)
+
+== Policy Checks ==
+[PASS] Length >= 12
+[PASS] Has uppercase
+[PASS] Has lowercase
+[PASS] Has digit
+[FAIL] Missing symbol
+[PASS] No whitespace
+[PASS] Repeated character run acceptable (max run: 2)
+
+== Recommendations ==
+- Add at least one symbol (e.g., !@#$%).
